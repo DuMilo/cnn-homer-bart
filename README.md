@@ -36,13 +36,3 @@ This project focuses on developing a Convolutional Neural Network (CNN) to recog
    ```bash
    pip install -r requirements.txt
    ```
-
-
-
-## Team Members
-- **DuMilo** - Project Lead & Developer
-- [Additional team members can be added here]  
-
----
-
-This README file outlines the structure and expectations of the project, ensuring clear communication and understanding among team members and contributors.
