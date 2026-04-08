@@ -18,7 +18,6 @@ This project focuses on developing a Convolutional Neural Network (CNN) to recog
 - Python
 - TensorFlow / Keras
 - OpenCV for image processing
-- Flask / Django for web interface
 - Git for version control
 - Jupyter Notebook for experimentation
 
@@ -30,36 +29,15 @@ This project focuses on developing a Convolutional Neural Network (CNN) to recog
    ```
 2. Create a virtual environment and activate it:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the application:
-   - For Flask:
-     ```bash
-     flask run
-     ```
-   - For Django:
-     ```bash
-     python manage.py runserver
-     ```
 
-## Project Structure
-```
-cnn-homer-bart/
-├── app/                # Main application folder
-│   ├── static/        # Static files (CSS, images)
-│   ├── templates/     # HTML templates
-│   ├── models/        # CNN model definitions
-│   ├── utils/         # Utility functions for image processing
-│   ├── main.py        # Entry point of the application
-├── data/              # Dataset folder
-├── requirements.txt    # Python package dependencies
-└── README.md          # Project documentation
-```
+
 
 ## Team Members
 - **DuMilo** - Project Lead & Developer
